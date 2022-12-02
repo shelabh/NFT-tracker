@@ -75,9 +75,9 @@ const Background = () => {
 			{/** chaning div to motion.div to implement the animations */}
 			<motion.div variants={Mom} initial="initial" animate="animate" className=" w-full -z-5">
 				<img src="/images/ellipse1.svg"  className="absolute ml-[15rem] z-0 animate-pulse"/>
-				<img src="/images/ellipse2.svg" className="absolute right-0 mt-[5rem] animate-pulse  delay-300"/>
-				<img src="/images/ellipse3.svg" className="absolute bottom-0 z-0 animate-pulse delay-500"/>
-				<img src="/images/ellipse4.svg" className="absolute ml-[70rem] bottom-0 animate-pulse delay-700"/>
+				<img src="/images/ellipse2.svg" className="absolute right-0 mt-[5rem] animate-pulse  "/>
+				<img src="/images/ellipse3.svg" className="absolute bottom-0 z-0 animate-pulse "/>
+				<img src="/images/ellipse4.svg" className="absolute ml-[70rem] bottom-0 animate-pulse "/>
 				<motion.div variants={Dad}>
 					<motion.img variants={Svg} src="/images/ellipse5.svg" className="absolute mt-[10rem] "/>
 				</motion.div>
